@@ -1,0 +1,147 @@
+.body{
+    background: url(https://i.redd.it/hdgf0pj52x151.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+}
+.container{
+    max-width: 1210px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.381);
+    align-items: center;
+    display: flex;
+}
+.header__span{
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+.header__ul{
+    display: flex;
+    margin-left: 410px;
+}
+.header__ul--a{
+    text-decoration: none;
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+    margin-left: 30px;
+}
+.tarix__h1{
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.header__ul--a-li{
+    list-style-type: none;
+}
+.tarix-card{
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:transparent ;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .tarixImage{
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  .tarix{
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.381);
+  }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+  }
+  .button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:rgba(255, 255, 255, 0.381) ;
+    color: white;
+    font-family: Signika Negative, Asap, sans-serif;
+    display: inline-block;
+  }
+  .jaxonAdabiyoti{
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.381);
+  }
+  .jaxonAdabiyoti__h1{
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .cardsJ{
+    display: flex;
+    justify-content: space-between;
+  }
+  .jaxonAdabiyoti-card{
+    width: 400px;
+    height: 800px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color:transparent ;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .jaxonAdabiyotiImage{
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  .uzbekAdabiyoti{
+    margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.381);
+  }
+  .uzbekAdabiyotiImage{
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  .uzbekAdabiyotiName{
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .uzbekAdabiyotiDescr{
+    text-decoration: none;
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+    margin-left: 30px;
+  }

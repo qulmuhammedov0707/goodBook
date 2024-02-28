@@ -1,0 +1,36 @@
+.body{
+    background: url(https://images4.alphacoders.com/114/1144182.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Signika Negative, Asap, sans-serif;
+    color:white;
+}
+
+.container{
+    max-width: 1210px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.greeting{
+    width: 600px;
+    height: 800px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.381);
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.greeting__content{
+    margin-top: 250px;
+    text-align: center;
+}
+.greeting__content--button{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.381);
+    color: white;
+}

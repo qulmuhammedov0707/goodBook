@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="./css/books.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div class="container">
+        <div class="header">
+            <span class="header__span">
+                goodBook
+            </span>
+            <ul class="header__ul">
+               <a href="https://kitob.uz/" target="_blank" class="header__ul--a">
+                    <li class="header__ul--a-li">
+                        O`zbekcha kitoblar
+                    </li>
+                </a>
+                <a href="https://www.junkybooks.com/?gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qHwx7e7ZU4cSiHwcHaYKaVM3nsFYGpU2CaGcRquPj8wnbLraYG4ufxoCNnMQAvD_BwE" target="_blank" class="header__ul--a">
+                    <li class="header__ul--a-li">
+                        Inglizcha kitoblar
+                    </li>
+                </a>
+                <a href="https://ficbook.net/" class="header__ul--a" target="_blank">
+                    <li class="header__ul--a-li">
+                        Ruscha kitoblar
+                    </li>
+                </a> 
+            </ul>
+        </div>
+        <div class="tarix">
+            <h1 class="tarix__h1">Tarixiy kitoblar</h1>
+            <div class="cards"></div>
+            <template id="templateTarix">
+                <div class="tarix-card" id="tarixCard">
+                  <img class="tarixImage" src="" alt="Tarix Image">
+                  <h2 class="tarixName"></h2>
+                  <p class="tarixDescr"></p>
+                  <p class="tarixDownload"></p>
+                  <a class="tarixLink"></a>
+                  <button id="clearButton" class="button">O`chirish</button>
+                </div>
+              </template>
+        </div>
+        <div class="jaxonAdabiyoti">
+            <h1 class="jaxonAdabiyoti__h1">Jaxon Adabiyoti haqidagi kitoblar</h1>
+            <div class="cardsJ"></div>
+            <template id="templateJaxonAdabiyoti">
+                <div class="jaxonAdabiyoti-card" id="jaxonAdabiyotiCard">
+                  <img class="jaxonAdabiyotiImage" src="" alt="jaxonAdabiyoti Image">
+                  <h2 class="jaxonAdabiyotiName"></h2>
+                  <p class="jaxonAdabiyotiDescr"></p>
+                  <p class="jaxonAdabiyotiDownload"></p>
+                  <a class="jaxonAdabiyotiLink"></a>
+                  <button id="clearButtonJ" class="button">O`chirish</button>
+                </div>
+              </template>
+        </div>
+        <div class="uzbekAdabiyoti">
+            <h1 class="jaxonAdabiyoti__h1">O'zbek adabiyoti</h1>
+            <div class="cards" id="cardsU"></div>
+            <template id="templateUzbekAdabiyoti">
+                <div class="jaxonAdabiyoti-card" id="uzbekAdabiyoti">
+                  <img class="uzbekAdabiyotiImage" src="" alt="jaxonAdabiyoti Image">
+                  <h2 class="uzbekAdabiyotiName"></h2>
+                  <p class="uzbekAdabiyotiDescr"></p>
+                  <p class="uzbekAdabiyotiDownload"></p>
+                  <a class="uzbekAdabiyotiLink"></a>
+                  <button id="clearButtonU" class="button">O`chirish</button>
+                </div>
+              </template>
+        </div>
+    </div>
+    <script src="./js/books.js"></script>
+</body>
+</html>
